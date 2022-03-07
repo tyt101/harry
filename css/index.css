@@ -1,0 +1,292 @@
+
+			.font {
+				font-family: 'icomoon';
+			}
+			
+			.box {
+				height: 75px;
+			}
+			.top-nav {
+				z-index: 1000;
+				position: fixed;
+				width: 100%;
+				height: 75px;
+				background: linear-gradient(to left, rgba(27, 31, 47, 0.85), #585454, rgba(30, 35, 50, 0.85));
+				line-height: 75px;
+				overflow:hidden;
+			}
+			.tubiao {
+				float: left;
+			}
+			.lef-nav {
+				float: left;
+			}
+			.top-nav .lef-nav li {
+				float: left;
+				font-size: 18px;
+				padding: 0 35px;
+			}
+			.top-nav li a {
+				color: #c2a673;
+			}
+			.rig-nav {
+				float: left;
+			}
+			.top-nav .rig-nav li {
+				float: right;
+				font-size: 18px;
+				padding: 0 35px;
+			}
+			.top-nav .cen-img {
+				float: left;
+				margin: 0 29px;
+				width: 150px;
+				height: 75px;
+			}
+			.F1 {
+				width: 100%;
+				
+			}
+			.first-w {
+				width: 100%;
+				margin-top: 20px;
+				height: 470px;
+			}
+			.intro {
+				float: left;
+				width: 250px;
+				border: 2px solid #C2A673;
+			}
+			
+			.lunbo {
+				position: relative;
+				width: 900px;
+				height: 468px;
+				float: right;
+				border: 1px dotted gray;
+				border-radius: 50px;
+				box-shadow: gray 5px 10px 10px 5px;
+				overflow: hidden;
+				
+			}
+			.row-L , .row-R{
+				position: absolute;
+				background-color: rgba(0,0,0,.3);
+				width: 30px;
+				height: 50px;
+				text-align: center;
+				line-height: 50px;
+				display: none;
+				z-index: 1000;
+			}
+			.row-L {
+				left: 0;
+				top:50%;
+				transform:translateY(-50%);
+				border-top-right-radius: 15px;
+				border-bottom-right-radius: 15px;
+			}
+			.row-R {
+				right: 0;
+				top:50%;
+				transform:translateY(-50%);
+				border-top-left-radius: 15px;
+				border-bottom-left-radius: 15px;
+			}
+			.lunbo ul {
+				position: absolute;
+				top:0;
+				left:0;
+				width: 4500px;
+				height: 468px;
+			}
+			.lunbo ul li {
+				float: left;
+			}
+			.lunbo ol {
+				position: absolute;
+				left: 50%;
+				bottom: 0;
+				transform: translateX(-50%);
+				height: 20px;
+				background-color: rgba(255,255,255,.1);
+				border-radius: 10px;
+			}
+			.lunbo ol li {
+				width: 12px;
+				height: 12px;
+				border-radius: 50%;
+				float: left;
+				margin-right: 10px;
+				margin-top: 4px;
+				border: 1px solid white;
+			}
+			.current {
+				background-color: #FFFFFF;
+			}
+			.second-w{
+				width: 100%;
+				height: 150px;
+				margin-top: 20px;
+				border-bottom: 1px solid pink;
+				
+			}
+			.second-w ul {
+				perspective: 100px;
+			}
+			.second-w ul li {
+				float: left;
+			}
+				
+			.second-w ul li a {
+				width: 200px;
+				height:100px;
+				display: inline-block;
+			}
+			.second-w ul li a img {
+				width: 200px;
+				height: 100px;
+			}
+			.box .w ul li a:hover {
+				text-decoration: underline;
+			}
+			.third-w {
+				width: 100%;
+				height: 1500px;
+			}
+			.third-left {
+				width: 204px;
+				padding-right: 5px;
+				height: 390px;
+				padding-top: 15px;
+				float: left;
+			}
+			.third-cen {
+				width: 780px;
+				height: 405px;
+				float: left;
+			}
+			.thild-right {
+				width: 204px;
+				height: 390px;
+				padding-left: 5px;
+				padding-top: 15px;
+				float: right;
+			}
+			.into-peo {
+				width: 100%;
+				height: 600px;
+				border:1px solid pink;
+			}
+			.lef-intro , .lef-curse-intro{
+				width: 314px;
+				height: 600px;
+				float: left;
+			}
+			.into-peo img ,.into-curse img {
+				width: 230px;
+				height: 280px;
+				float: left;
+				padding: 10px 10px;
+				border-bottom: 1px solid pink;
+			}
+			.rig-intro , .rig-curse-intro {
+				float: left;
+			}
+			.rig-intro p ,.rig-curse-intro p {
+				width: 750px;
+				height: 280px;
+				border-bottom: 1px solid black;
+				/* color: rgb(255,250,232); */
+				color: black;
+				padding: 10px 0;
+				font-weight: bold;
+			}
+			.titleA {
+				width: 100%;
+				height: 100px;
+				clear:left;
+				
+				line-height: 100px;
+				text-align: center;
+			}
+			.into-peo a ,.into-curse a {
+				float:right;
+				color:rgb(0,0,0);
+			}
+			.into-peo a:hover ,.into-curse a:hover {
+				color: aliceblue;
+			}
+			.into-curse {
+				width: 100%;
+				height: 600px;
+				border: 1px solid pink;
+			}
+			.third-w .third-w-top {
+				width: 100%;
+				height: 405px;
+			}
+			.forth-w {
+				width: 100%;
+				height: 700px;
+				border-bottom: 1px solid pink;
+			}
+			.for-video-and-paint {
+				width: 100%;
+				height: 200px;
+				
+			}
+			.for-video-and-paint .for-video  {
+				width: 500px;
+				height: 240px;
+				float: left;
+			}
+			.for-video-and-paint .for-paint {
+				width: 700px;
+				height: 240px;
+				float: left;
+			}
+			.for-video-and-paint .for-video video ,.for-video-and-paint .for-paint img{
+				margin-right: 40px;
+				margin-top: 20px;
+			}
+			.fifth-w {
+				width: 100%;
+				height: 500px;
+				position: relative;
+				border-bottom: 10px solid pink;
+				z-index: 10;
+			}
+			.fifth-w h3 {
+				width: 120px;
+				height: 131px;
+				float: left;
+			}
+			.fifth-w img {
+				width: 100px;
+				height: 100px;
+				float: left;
+			}
+			.contact-top {
+				width:100%;
+				height: 100px;
+			}
+			.second-w ul li a:hover img {
+				animation-name: rota;
+				animation-duration: 2s;
+				transition: all 1s;
+			}
+			@keyframes  rota{
+				0%{
+					transform: rotate(0deg);
+				}
+				33%{
+					transform: rotate(-45deg);
+				}
+				66%{
+					transform: rotate(45deg);
+				}
+				100%{
+					transform: rotate(0deg);
+				}
+			}

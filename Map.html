@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+		<link rel="stylesheet" href="css/base.css">
+		<style>
+		body {
+			background: url("img/首页/backText1.jpg") no-repeat;
+			overflow: hidden;
+		}
+			
+			img.first {
+				width: 1410px;
+				height: 960px;
+				position: absolute;
+				animation: move 20s  linear infinite;
+				margin-left: -1410px;
+				margin-top: -650px;
+			}
+			img.second {
+				width: 1410px;
+				height: 960px;
+				position: absolute;
+				margin-left: -1820px;
+				animation: move 20s 10s linear infinite;
+				
+			}
+			
+			@keyframes move{
+				from{
+					margin-left: -1400px;
+				}
+				to{
+					margin-left: 100%;
+				}
+			}
+			@keyframes move1{
+				from{
+					margin-left: -1880px;
+				}
+				to{
+					margin-left: 100%;
+				}
+			}
+			.back {
+				width: 100%;
+				height: 800px;
+				background: url("img/视听中心/back0.png");
+			}
+			img.map0 {
+				width: 186px;
+				height: 127px;
+				position: absolute;
+				right: 200px;
+			}
+			img.map1 {
+				width: 233px;
+				height: 135px;
+				position: absolute;
+				right: 400px;
+				top: 100px;
+			}
+			img.map2 {
+				width: 234px;
+				height: 128px;
+				position: absolute;
+				right: 700px;
+				top: 100px;
+			}
+			img.map3 {
+				width: 186px;
+				height: 130px;
+				position: absolute;
+				right: 700px;
+				top: 300px;
+			}
+			img.map4 {
+				width: 186px;
+				height: 125px;
+				position: absolute;
+				right: 300px;
+				top: 300px;
+			}
+			img.map5 {
+				width: 186px;
+				height: 125px;
+				position: absolute;
+				right: 800px;
+				top: 500px;
+			}
+			img.map6 {
+				width: 233px;
+				height: 125px;
+				position: absolute;
+				right: 1000px;
+				top: 600px;
+			}
+			img.map7 {
+				width: 233px;
+				height: 125px;
+				position: absolute;
+				right: 500px;
+				top: 500px;
+			}
+			@keyframes sca{
+				from{
+					transform: scale(2,2);
+				}
+				to{
+					transform: scale(1,1);
+				}
+			}
+			.sca{
+				animation-name: sca;
+				animation-duration: 2s;
+			}
+			.transTOLe{
+				position: absolute;
+				right: 0;
+				top:100px;
+				width: 120px;
+				height: 200px;
+			}
+			.transTOLe .con{
+				background-color: rgba(71,55,45,.7);
+				position: absolute;
+				width: 100%;
+				height: 30px;
+				margin: 9px 0;
+				border: 1px solid pink;
+				left: 80px;
+				transition: all .5s;
+				line-height: 30px;
+				text-align: center;
+				
+			}
+			.transTOLe .con a {
+				color: white;
+			}
+		</style>
+	</head>
+	<body>
+		
+		<div class="back">
+			<!-- 浮动云 -->
+			<img class = "first" src="img/浮/cloud.png" alt="">
+			<img class = "second" src="img/浮/cloud.png" alt="">
+			<!-- 地图图标 -->
+			<a href = "javascript:;"><img class = "map0" src="img/浮/0.png" alt="" index="0" /></a>
+			<a href = "javascript:;"><img class = "map1" src="img/浮/1.png" alt="" index="1" /></a>
+			<a href = "javascript:;"><img class = "map2" src="img/浮/2.png" alt="" index="2" /></a>
+			<a href = "javascript:;"><img class = "map3" src="img/浮/3.png" alt="" index="3" /></a>
+			<a href = "javascript:;"><img class = "map4" src="img/浮/4.png" alt="" index="4" /></a>
+			<a href = "javascript:;"><img class = "map5" src="img/浮/5.png" alt="" index="5" /></a>
+			<a href = "javascript:;"><img class = "map6" src="img/浮/6.png" alt="" index="6" /></a>
+			<a href = "javascript:;"><img class = "map7" src="img/浮/7.png" alt="" index="7" /></a>
+			<div class="transTOLe">
+				<div class="con" style="top:10px;"><a href="index.html">返回地图</a></div>
+				<div class="con" style="top:60px;"><a href="hello.html">返回初始</a></div>
+				<div class="con" style="top:110px;"><a href="enjoy.html">返回福利</a></div>
+			</div>
+		</div>
+		
+		<script src="js/map.js">
+			
+		</script>
+	</body>
+</html>
